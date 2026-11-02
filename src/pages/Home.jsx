@@ -1,16 +1,39 @@
 function Home() {
   return (
-    <section>
-      <h1>Hello, I'm Your Name.</h1>
+    <div className="container home">
 
-      <p>
-        Developer, technology enthusiast and lifelong learner.
-      </p>
+      <section className="home-hero">
 
-      <a href="mailto:your-email@example.com">
-        Contact Me
-      </a>
-    </section>
+        <p className="hero-eyebrow">
+          DEVELOPER · ENGINEER · LIFELONG LEARNER
+        </p>
+
+        <h1 className="hero-name">
+          Sarthak Gautam.
+        </h1>
+
+        <p className="hero-description">
+          Backend developer interested in software architecture,
+          distributed systems, and building reliable applications.
+        </p>
+
+        <div className="hero-links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            GitHub ↗
+          </a>
+
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+            LinkedIn ↗
+          </a>
+
+          <a href="mailto:your-email@example.com">
+            Email ↗
+          </a>
+        </div>
+
+      </section>
+
+    </div>
   );
 }
 
