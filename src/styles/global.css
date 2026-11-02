@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+footer {
+  padding: 24px;
+  text-align: center;
+}
+
+.markdown pre {
+  overflow-x: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.markdown img {
+  max-width: 100%;
+}
