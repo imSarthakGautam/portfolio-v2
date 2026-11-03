@@ -1,20 +1,20 @@
 const contacts = [
   {
     label: 'Email',
-    value: 'your_email@example.com',
-    href: 'mailto:your_email@example.com',
+    value: 'sarthakgautam.dev@gmail.com',
+    href: 'mailto:sarthakgautam.dev@gmail.com',
     description: 'For inquiries and conversations.',
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/your_name',
-    href: 'https://www.linkedin.com/in/your_name',
+    value: 'linkedin.com/in/imSarthakGautam',
+    href: 'https://www.linkedin.com/in/imSarthakGautam',
     description: 'Connect with me professionally.',
   },
   {
     label: 'Instagram',
-    value: '@your_name',
-    href: 'https://www.instagram.com/your_name',
+    value: '@imSarthakGautam',
+    href: 'https://www.instagram.com/imsarthakgatuam',
     description: 'A little more about me outside work.',
   },
 ];

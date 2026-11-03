@@ -13,20 +13,20 @@ function Home() {
         </h1>
 
         <p className="hero-description">
-          Backend developer interested in software architecture,
-          distributed systems, and building reliable applications.
+          Backend engineer interested in playing around with 0s and 1s to build systems and architectures.
         </p>
+        <p>Kathmandu, Nepal</p>
 
         <div className="hero-links">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/imSarthakGautam" target="_blank" rel="noreferrer">
             GitHub ↗
           </a>
 
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/imsarthakgautam/" target="_blank" rel="noreferrer">
             LinkedIn ↗
           </a>
 
-          <a href="mailto:your-email@example.com">
+          <a href="mailto:sarthakgautam.dev@gmail.com">
             Email ↗
           </a>
         </div>

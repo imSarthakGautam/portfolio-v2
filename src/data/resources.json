@@ -1,0 +1,201 @@
+
+[
+  {
+    "title": "An overview of HTTP",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+    "source": "MDN",
+    "topic": "Networking",
+    "type": "Article",
+    "status": "Studying",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-01-27",
+    "note": "Understand HTTP fundamentals, request and response cycles, methods, headers, status codes, and how web communication works."
+  },
+  {
+    "title": "Database Reference",
+    "url": "https://www.postgresql.org/docs/current/",
+    "source": "PostgreSQL",
+    "topic": "Databases",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-01-28",
+    "note": "Learn relational database fundamentals, SQL queries, indexing, transactions, constraints, and database performance."
+  },
+  {
+    "title": "Reverse Proxy",
+    "url": "https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/",
+    "source": "Cloudflare",
+    "topic": "Networking",
+    "type": "Article",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-01-29",
+    "note": "Understand reverse proxies, how they sit between clients and backend servers, and how they support load balancing, security, and performance."
+  },
+  {
+    "title": "Latency",
+    "url": "https://medium.com/javarevisited/20-strategies-to-reduce-latency-in-system-design-0b549ea486e4",
+    "source": "Medium",
+    "topic": "Backend Engineering",
+    "type": "Article",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-01-30",
+    "note": "Explore techniques for reducing system latency, including caching, connection reuse, asynchronous processing, database optimization, and network efficiency."
+  },
+  {
+    "title": "Cloud Design Patterns",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+    "source": "Azure",
+    "topic": "System Design",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-01-31",
+    "note": "Get an overview of common cloud architecture patterns and understand the problems they solve in scalable and distributed applications."
+  },
+  {
+    "title": "Cache Aside Pattern",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+    "source": "Azure",
+    "topic": "Caching",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-01",
+    "note": "Understand the cache-aside pattern, cache misses, cache population, expiration, and strategies for improving application read performance."
+  },
+  {
+    "title": "Publisher-Subscriber Pattern",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber",
+    "source": "Azure",
+    "topic": "Distributed Systems",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-02",
+    "note": "Learn how publishers and subscribers communicate through events, enabling asynchronous processing and loose coupling between services."
+  },
+  {
+    "title": "gRPC Core Concepts",
+    "url": "https://grpc.io/docs/what-is-grpc/core-concepts/",
+    "source": "gRPC",
+    "topic": "Networking",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-03",
+    "note": "Understand gRPC communication, Protocol Buffers, RPC calls, streaming, deadlines, and communication between distributed services."
+  },
+  {
+    "title": "Timeouts, Retries and Exponential Backoff",
+    "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_limit_retries.html",
+    "source": "AWS",
+    "topic": "Reliability Engineering",
+    "type": "Article",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-04",
+    "note": "Learn how timeouts, retry limits, and exponential backoff help handle transient failures without overwhelming dependent services."
+  },
+  {
+    "title": "Adding Jitter to Exponential Backoff",
+    "url": "https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/",
+    "source": "AWS",
+    "topic": "Reliability Engineering",
+    "type": "Article",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-05",
+    "note": "Understand how random delays (jitter) prevent synchronized retry attempts and reduce traffic spikes during service failures."
+  },
+  {
+    "title": "Rate Limiting Pattern",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern",
+    "source": "Azure",
+    "topic": "Traffic Management",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-06",
+    "note": "Learn how to control incoming request rates, protect backend services, enforce quotas, and prevent excessive API usage."
+  },
+  {
+    "title": "Throttling Pattern",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling",
+    "source": "Azure",
+    "topic": "Traffic Management",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-07",
+    "note": "Understand how throttling controls resource consumption under heavy workloads and protects systems from overload."
+  },
+  {
+    "title": "Idempotent Consumer Pattern",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer",
+    "source": "Azure",
+    "topic": "Distributed Systems",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-08",
+    "note": "Learn how to safely process duplicate messages and requests while ensuring that repeated operations do not cause unintended side effects."
+  },
+  {
+    "title": "CDN, DDoS Protection and Security",
+    "url": "https://www.cloudflare.com/learning/",
+    "source": "Cloudflare",
+    "topic": "Infrastructure and Security",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-09",
+    "note": "Understand content delivery networks, edge caching, DDoS mitigation, and how distributed infrastructure improves application availability and security."
+  },
+  {
+    "title": "Application Security",
+    "url": "https://cheatsheetseries.owasp.org/Glossary.html",
+    "source": "OWASP",
+    "topic": "Application Security",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-10",
+    "note": "Build familiarity with application security terminology, common vulnerabilities, secure development practices, and important security concepts."
+  },
+  {
+    "title": "Continuous Integration (CI)",
+    "url": "https://docs.github.com/en/actions/get-started/continuous-integration",
+    "source": "GitHub",
+    "topic": "DevOps",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-11",
+    "note": "Learn how automated builds and tests validate code changes and help maintain software quality through continuous integration."
+  },
+  {
+    "title": "Continuous Deployment (CD)",
+    "url": "https://docs.github.com/en/actions/get-started/continuous-deployment",
+    "source": "GitHub",
+    "topic": "DevOps",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-12",
+    "note": "Understand automated deployment workflows, deployment environments, release pipelines, and how applications are delivered reliably."
+  },
+  {
+    "title": "Monitoring, Alerts, SLOs, Overload, Incidents and Releases",
+    "url": "https://sre.google/workbook/table-of-contents/",
+    "source": "Google SRE",
+    "topic": "Site Reliability Engineering",
+    "type": "Documentation",
+    "status": "To read",
+    "recommendation": "Recommended",
+    "dateAdded": "2026-02-13",
+    "note": "Explore production reliability practices, service level objectives, monitoring, alerting, incident management, overload handling, and safe releases."
+  }
+]

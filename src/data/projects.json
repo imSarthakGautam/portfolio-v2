@@ -1,0 +1,62 @@
+[
+  {
+    "title": "LaBasam Rides",
+    "year": "2026",
+    "description": "A real-time ride-sharing and parcel delivery platform featuring modular backends, live communication, ML-powered face recognition, and a women-focused Pink Mode.",
+    "technologies": [
+      "Django",
+      "Node.js",
+      "FastAPI",
+      "Socket.IO",
+      "Firebase",
+      "MQTT",
+      "PostgreSQL"
+    ],
+    "github": "",
+    "demo": "https://play.google.com/store/apps/details?id=com.labasam.passenger&hl=en",
+    "featured": true
+  },
+  {
+    "title": "A5 IT",
+    "year": "2025",
+    "description": "A multi-channel e-commerce platform that helps vendors manage inventory and demand through dynamic stock synchronization across multiple marketplaces.",
+    "technologies": ["Node.js", "TypeScript", "PostgreSQL"],
+    "github": "",
+    "demo": "https://a5it.com/",
+    "featured": true
+  },
+  {
+    "title": "A5Sync",
+    "year": "2025",
+    "description": "A dynamic inventory synchronization system powering A5 IT, keeping vendor stock and product availability consistent across multiple sales channels.",
+    "technologies": ["Node.js", "TypeScript", "TypeORM", "PostgreSQL"],
+    "github": "",
+    "demo": "https://a5sync.com/",
+    "featured": true
+  },
+  {
+    "title": "Automatic Mispronunciation Detection System",
+    "year": "2024",
+    "description": "An ML-powered pronunciation assessment platform that uses multiple speech recognition models to detect mispronunciations and provide actionable improvement suggestions.",
+    "technologies": [
+      "Django",
+      "DRF",
+      "React",
+      "TailwindCSS",
+      "wav2vec 2.0",
+      "Whisper"
+    ],
+    "github": "https://github.com/imSarthakGautam/Automatic-MisPronunciation-Detector-and-Corrector",
+    "demo": "",
+    "featured": false
+  },
+  {
+    "title": "Global College",
+    "year": "2026",
+    "description": "A dynamic college website powered by a reusable multi-tenant backend and CMS, enabling centralized content management across multiple websites.",
+    "technologies": ["TypeScript", "NestJS", "PostgreSQL", "REST API"],
+    "github": "",
+    "demo": "https://alevel.globalcollege.edu.np/",
+    "featured": false
+  }
+]
